@@ -1,26 +1,33 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a cross platform mobile app designed to aid stock purchases
 
-## How to use this template
+##Initial Setup
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Clone the repository and install dependencies using *npm install*. If 
+necessary, run the following commands to install Cordova, Ionic, and 
+Typescript:
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+*npm install -g cordova*
+*npm install -g ionic*
+*npm install -g typescript*
 
-### With the Ionic CLI:
+To begin development, see the next section.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+##Development
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
-```
+Do not develop on the master branch. Instead, create a new branch using:
 
-Then, to run it, cd into `myTutorial` and run:
+*git checkout -b [branch-name]*
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+To push your branch to the repo:
 
-Substitute ios for android if not on a Mac.
+*git push origin [branch-name]*
 
+##Deploy to development Server
+
+To deploy to a local development server, use:
+
+*ionic serve*
+
+To view by specific platform:
+
+*ionic serve -l*

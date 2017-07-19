@@ -24,6 +24,10 @@ To push your branch to the repo:
 
 *git push origin [branch-name]*
 
+To update your branch: 
+
+*git merge origin/master*
+
 ## Deploy to development Server
 
 To deploy to a local development server, use:

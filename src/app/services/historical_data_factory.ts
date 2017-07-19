@@ -6,6 +6,9 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/publishLast';
 import { companies } from '../constants';
 
+/**
+ * Service that pulls historical stock data using the AlphaVantage API
+ */
 @Injectable()
 export class HistoricalDataService {
     //API key = U8DGBF2PDMXR2FZT

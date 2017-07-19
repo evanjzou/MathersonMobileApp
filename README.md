@@ -1,6 +1,6 @@
 This is a cross platform mobile app designed to aid stock purchases
 
-##Initial Setup
+## Initial Setup
 
 Clone the repository and install dependencies using *npm install*. If 
 necessary, run the following commands to install Cordova, Ionic, and 
@@ -12,7 +12,7 @@ Typescript:
 
 To begin development, see the next section.
 
-##Development
+## Development
 
 Do not develop on the master branch. Instead, create a new branch using:
 
@@ -22,7 +22,7 @@ To push your branch to the repo:
 
 *git push origin [branch-name]*
 
-##Deploy to development Server
+## Deploy to development Server
 
 To deploy to a local development server, use:
 

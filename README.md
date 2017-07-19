@@ -7,7 +7,9 @@ necessary, run the following commands to install Cordova, Ionic, and
 Typescript:
 
 *npm install -g cordova*
+
 *npm install -g ionic*
+
 *npm install -g typescript*
 
 To begin development, see the next section.

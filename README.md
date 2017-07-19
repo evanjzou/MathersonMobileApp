@@ -26,6 +26,8 @@ To push your branch to the repo:
 
 To update your branch: 
 
+*git pull*
+
 *git merge origin/master*
 
 ## Deploy to development Server
